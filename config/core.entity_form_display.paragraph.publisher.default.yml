@@ -1,0 +1,45 @@
+uuid: 92b322cb-3954-4eff-ba24-9e3259d563b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.publisher.field_publisher_logo
+    - field.field.paragraph.publisher.field_publisher_name
+    - field.field.paragraph.publisher.field_publisher_website
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.publisher
+  module:
+    - image
+    - link
+id: paragraph.publisher.default
+targetEntityType: paragraph
+bundle: publisher
+mode: default
+content:
+  field_publisher_logo:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_publisher_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publisher_website:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

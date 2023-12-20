@@ -1,0 +1,37 @@
+uuid: b82cdb7a-4301-4720-b9d7-0cc300340c0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.non_fiction_book
+    - paragraphs.paragraphs_type.author
+  module:
+    - entity_reference_revisions
+id: node.non_fiction_book.field_author
+field_name: field_author
+entity_type: node
+bundle: non_fiction_book
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      author: author
+    negate: 0
+    target_bundles_drag_drop:
+      author:
+        weight: 4
+        enabled: true
+      marketing:
+        weight: 5
+        enabled: false
+      publisher:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

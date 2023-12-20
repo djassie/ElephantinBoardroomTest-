@@ -1,0 +1,23 @@
+uuid: 9c620a95-b442-488a-a84a-ffebfa96a72b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.business_book
+id: node.business_book.field_price
+field_name: field_price
+entity_type: node
+bundle: business_book
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

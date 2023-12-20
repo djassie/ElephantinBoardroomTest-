@@ -1,0 +1,21 @@
+uuid: bb2a762c-997d-4141-89cf-82f63ba700c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_marketing_audience
+    - paragraphs.paragraphs_type.marketing
+  module:
+    - options
+id: paragraph.marketing.field_marketing_audience
+field_name: field_marketing_audience
+entity_type: paragraph
+bundle: marketing
+label: 'Marketing Audience'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

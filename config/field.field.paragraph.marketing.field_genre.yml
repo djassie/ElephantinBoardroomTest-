@@ -1,0 +1,21 @@
+uuid: d7d4165c-6fbc-43d4-8bc3-cac5a1c347a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_genre
+    - paragraphs.paragraphs_type.marketing
+  module:
+    - options
+id: paragraph.marketing.field_genre
+field_name: field_genre
+entity_type: paragraph
+bundle: marketing
+label: Genre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

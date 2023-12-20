@@ -1,0 +1,36 @@
+uuid: 3e171af7-cf72-4446-bdda-bdfdbd49ad4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_marketing_audience
+field_name: field_marketing_audience
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: children
+      label: Children
+    -
+      value: young_adult
+      label: 'Young Adult'
+    -
+      value: adult
+      label: Adult
+    -
+      value: teen
+      label: Teen
+    -
+      value: all
+      label: All
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

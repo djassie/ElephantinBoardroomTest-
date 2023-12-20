@@ -1,0 +1,39 @@
+uuid: 336c627d-ed81-40ab-a9bd-711efd9a8a61
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_genre
+field_name: field_genre
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ficiton
+      label: Fiction
+    -
+      value: non_fiction
+      label: Non-Fiction
+    -
+      value: business
+      label: Business
+    -
+      value: self_help
+      label: Self-Help
+    -
+      value: thriller
+      label: Thriller
+    -
+      value: horror
+      label: Horror
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

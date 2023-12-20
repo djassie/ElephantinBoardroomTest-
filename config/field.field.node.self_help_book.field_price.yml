@@ -1,0 +1,23 @@
+uuid: 082e6814-9b15-44c7-92ec-6da9cd12b0a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.self_help_book
+id: node.self_help_book.field_price
+field_name: field_price
+entity_type: node
+bundle: self_help_book
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,30 @@
+uuid: b1bdb2c8-c1c2-4a46-8907-cbb8eb8596ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.marketing.field_genre
+    - field.field.paragraph.marketing.field_marketing_audience
+    - paragraphs.paragraphs_type.marketing
+  module:
+    - options
+id: paragraph.marketing.default
+targetEntityType: paragraph
+bundle: marketing
+mode: default
+content:
+  field_genre:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_marketing_audience:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

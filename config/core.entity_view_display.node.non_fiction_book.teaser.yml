@@ -1,0 +1,38 @@
+uuid: 2c95e42b-fae7-4fb5-9940-fbcd10afb4b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.non_fiction_book.body
+    - field.field.node.non_fiction_book.field_author
+    - field.field.node.non_fiction_book.field_marketing
+    - field.field.node.non_fiction_book.field_price
+    - field.field.node.non_fiction_book.field_publisher
+    - node.type.non_fiction_book
+  module:
+    - text
+    - user
+id: node.non_fiction_book.teaser
+targetEntityType: node
+bundle: non_fiction_book
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author: true
+  field_marketing: true
+  field_price: true
+  field_publisher: true

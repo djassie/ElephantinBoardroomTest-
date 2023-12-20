@@ -1,0 +1,5 @@
+name: 'ElephantInTheBoardroom: Custom rest'
+type: module
+description: 'Rest plugin to get Paragraphs as JSON.'
+package: ElephantInTheBoardroom
+core_version_requirement: ^10

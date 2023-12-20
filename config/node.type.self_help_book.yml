@@ -1,0 +1,18 @@
+uuid: 18b352f8-c8a2-4a10-b19d-86bf8a61edf6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Self-Help Book'
+type: self_help_book
+description: "Self-Help Book use the \r\n\r\n- Author\r\n- Marketing\r\n- Publisher\r\n\r\nParagraphs"
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

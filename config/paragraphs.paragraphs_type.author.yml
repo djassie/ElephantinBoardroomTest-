@@ -1,0 +1,10 @@
+uuid: 5acb2be1-afd5-4ca0-abea-a945cc2b368f
+langcode: en
+status: true
+dependencies: {  }
+id: author
+label: Author
+icon_uuid: null
+icon_default: null
+description: "Paragraph Type Author : \r\n\r\n- name\r\n- image\r\n- Twitter"
+behavior_plugins: {  }

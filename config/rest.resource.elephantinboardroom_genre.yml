@@ -1,0 +1,18 @@
+uuid: 4a96cdd1-5183-41ab-9bd0-981ad60010b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - custom_rest
+    - serialization
+id: elephantinboardroom_genre
+plugin_id: elephantinboardroom_genre
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth

@@ -1,0 +1,19 @@
+uuid: 85a5ffb2-8955-4020-b93e-b3af55608667
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_author_twitter
+field_name: field_author_twitter
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

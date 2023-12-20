@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "57940a03-ef7a-41b1-b3cf-2566e3ccada0",
+		"name": "ElephantinBoardRoom APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19892482"
+	},
+	"item": [
+		{
+			"name": "http://dir13.lndo.site/api/v1/elephantinboardroom/all",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "drupaladmin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dir13.lndo.site/api/v1/elephantinboardroom/all",
+					"protocol": "http",
+					"host": [
+						"dir13",
+						"lndo",
+						"site"
+					],
+					"path": [
+						"api",
+						"v1",
+						"elephantinboardroom",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://dir13.lndo.site/api/v1/elephantinboardroom/genre/business_book",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "drupaladmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dir13.lndo.site/api/v1/elephantinboardroom/genre/business_book",
+					"protocol": "http",
+					"host": [
+						"dir13",
+						"lndo",
+						"site"
+					],
+					"path": [
+						"api",
+						"v1",
+						"elephantinboardroom",
+						"genre",
+						"business_book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://dir13.lndo.site/api/v1/elephantinboardroom/node/2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "drupaladmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dir13.lndo.site/api/v1/elephantinboardroom/node/2",
+					"protocol": "http",
+					"host": [
+						"dir13",
+						"lndo",
+						"site"
+					],
+					"path": [
+						"api",
+						"v1",
+						"elephantinboardroom",
+						"node",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

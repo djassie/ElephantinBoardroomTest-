@@ -1,0 +1,10 @@
+uuid: 5252a354-dc86-4493-80b5-7774f8b3818e
+langcode: en
+status: true
+dependencies: {  }
+id: marketing
+label: Marketing
+icon_uuid: null
+icon_default: null
+description: "This marketing Paragraph has three fields\r\n\r\n- Audience Type(List - Children, Young Adult, Teen, Adult, All)\r\n- Genre(List - Fiction, Non-ficiton, Business, Self-Help, Thriller, Horror)"
+behavior_plugins: {  }

@@ -1,0 +1,37 @@
+uuid: 531edbb4-cf72-46f4-abe4-12e7f5cbcccf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_marketing
+    - node.type.business_book
+    - paragraphs.paragraphs_type.marketing
+  module:
+    - entity_reference_revisions
+id: node.business_book.field_marketing
+field_name: field_marketing
+entity_type: node
+bundle: business_book
+label: Marketing
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      marketing: marketing
+    negate: 0
+    target_bundles_drag_drop:
+      author:
+        weight: 4
+        enabled: false
+      marketing:
+        weight: 5
+        enabled: true
+      publisher:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

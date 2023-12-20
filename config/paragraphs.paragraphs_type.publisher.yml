@@ -1,0 +1,10 @@
+uuid: 4846bc8d-21d3-4430-a9ba-77baacc4bc84
+langcode: en
+status: true
+dependencies: {  }
+id: publisher
+label: Publisher
+icon_uuid: null
+icon_default: null
+description: "This Publisher Paragraph Type has the fields\r\n\r\n- Publisher Name\r\n- Publisher Logo\r\n- Publisher website\r\n"
+behavior_plugins: {  }

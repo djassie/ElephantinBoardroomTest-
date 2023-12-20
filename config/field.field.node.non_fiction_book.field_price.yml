@@ -1,0 +1,23 @@
+uuid: ca0e6e02-79e2-4bae-a537-6ba206995919
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.non_fiction_book
+id: node.non_fiction_book.field_price
+field_name: field_price
+entity_type: node
+bundle: non_fiction_book
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

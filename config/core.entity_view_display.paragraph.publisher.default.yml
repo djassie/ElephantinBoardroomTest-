@@ -1,0 +1,49 @@
+uuid: 5dfa7327-82c6-4735-84c0-8bfedf2c9b44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.publisher.field_publisher_logo
+    - field.field.paragraph.publisher.field_publisher_name
+    - field.field.paragraph.publisher.field_publisher_website
+    - paragraphs.paragraphs_type.publisher
+  module:
+    - image
+    - link
+id: paragraph.publisher.default
+targetEntityType: paragraph
+bundle: publisher
+mode: default
+content:
+  field_publisher_logo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_publisher_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_publisher_website:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }
